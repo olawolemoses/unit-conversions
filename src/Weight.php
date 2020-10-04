@@ -4,6 +4,8 @@ namespace Freemind\UnitConversions;
 
 class Weight
 {
+    public $kilograms;
+    
     public static function fromKilograms(float $kilograms) : self
     {
         return new static($kilograms);
