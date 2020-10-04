@@ -1,16 +1,16 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "freemind/unit-conversions",
+    "description": "Perform unit conversions in php",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        "freemind",
+        "unit-conversions"
     ],
-    "homepage": "https://github.com/:vendor_name/:package_name",
+    "homepage": "https://github.com/freemind/unit-conversions",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
+            "name": "olawolemoses",
+            "email": "olawolemoses@gmail.com",
             "homepage": "https://spatie.be",
             "role": "Developer"
         }
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src"
+            "Freemind\\UnitConversions\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Freemind\\UnitConversions\\Tests\\": "tests"
         }
     },
     "scripts": {
