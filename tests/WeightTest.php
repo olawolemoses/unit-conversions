@@ -1,6 +1,7 @@
 <?php
 
 namespace Freemind\UnitConversions\Tests;
+
 use Freemind\UnitConversions\Weight;
 
 use PHPUnit\Framework\TestCase;
@@ -16,6 +17,4 @@ class ExampleTest extends TestCase
 
         $this->assertEquals(220.4623, $lbs);
     }
-
-
 }
